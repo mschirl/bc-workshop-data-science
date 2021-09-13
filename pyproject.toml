@@ -1,0 +1,25 @@
+[project]
+name = "workshop_data_science"
+version = "0.1.0"
+description = "Notebooks and resources accompanying the workshop Data Science & Machine Learning in Python"
+authors = [
+    "Max Schirl <max.schirl@fh-salzburg.ac.at>",
+    "Dorian Prill <dorian.prill@fh-salzburg.ac.at>"
+]
+license = "MIT"
+readme = "README.md"
+python = "3.9.6"
+repository = "https://its-git.fh-salzburg.ac.at/dprill.aise-m2015/workshop-data-science"
+
+
+[dependencies]
+rise = "*"
+pandas = "*"
+scikit-learn = "*"
+scikit-image ="*"
+matplotlib = "*"
+seaborn = "*"
+jupyterlab = "*"
+notebook = "*"
+openpyxl = "*"
+pypiwin32 = "*"
